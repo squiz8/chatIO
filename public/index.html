@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/socket.io/socket.io.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+    <title>Snok  Chat</title>
+</head>
+<body>
+
+    <div id="container">
+        <div id="chat-window">
+            <div id="output"></div>
+            <div id="feedback"></div>
+        </div>
+    </div>
+    <input type="text" placeholder="username" id="handle">
+    <input type="text" name="message" id="message" placeholder="message">
+    <button id="send">Send</button>
+    <script src="/chat.js"></script>
+</body>
+</html>
